@@ -1,0 +1,60 @@
+#canvas {
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+#panel {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+    min-width: 300px;
+    padding: 10px 0;
+}
+
+#panel a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px 0 0;
+    border-radius: 15px;
+    background-color: #666;
+    overflow: hidden;
+    text-indent: -200px;
+    cursor: pointer;
+}
+
+#panel a:hover {
+    box-shadow: 0px 0px 1px 2px #aaaaaa;
+}
+
+#panel a.active {
+    box-shadow: 0px 0px 3px 3px #888888;
+}
+
+#clear-btn {
+    float: right;
+    width: 60px;
+    height: 30px;
+    font-family: Microsoft Yahei, Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+#clear-btn:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    text-decoration: none;
+}
